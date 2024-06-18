@@ -1,0 +1,31 @@
+;
+
+:root {
+    --Verde: #C0D494;
+    --Verde-2: #98A785;
+    --Verde-transparente: rgba(152, 167, 133, 0.5);
+    --Branco: #FBF6F6;
+    --Branco-transparente: rgba(251, 246, 246, 0.25);
+    --Preto: #1B1B1B;
+}
+
+body {
+    background-color: var(--Verde);
+    color: var(--Preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    background-color: var(--Branco-transparente);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--Branco);
+}

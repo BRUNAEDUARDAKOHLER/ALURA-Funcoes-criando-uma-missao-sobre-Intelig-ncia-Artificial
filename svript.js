@@ -8,7 +8,7 @@ const pergunta1 = [
     {
         enunciado: "Assim que saiu da escola Gabriel se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, o chat também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento de Gabriel?",
         alternativas: [
-            "Isso é assustador!",
+            texto: "Isso é assustador!",
 
             "Isso é maravilhoso!"
         ]
@@ -48,9 +48,12 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
-function mostraPergunta(){
-    for(const alternativa of perguntaAtual.alternativas){
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.creatElement("button");
+        botaoAlternativas.textContent = alternativa;
+        caixaAlternativas.appendChild(botaoAlternativas);
+
     }
 }
 
