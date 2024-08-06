@@ -6,67 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Era uma vez uma pequena cidade chamada Verdelândia, conhecida por suas ruas limpas e belas praças. Contudo, ultimamente, o problema do lixo nas ruas começou a surgir. Vamos acompanhar a história de João, um jovem morador que quer fazer a diferença em sua cidade. Ao longo do caminho, você ajudará João a tomar decisões. Escolha sabiamente, pois cada decisão terá uma consequência."
+        "João acorda cedo em um sábado ensolarado e decide dar uma volta pela cidade. Ele percebe que há muito lixo espalhado pelas ruas e praças.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Ignorar o lixo e continuar seu passeio.",
+                afirmacao: "João continua seu passeio, mas a visão do lixo o incomoda o dia inteiro, e ele se sente culpado por não ter feito nada."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Começar a recolher o lixo que encontrar.",
+                afirmacao: "João começa a recolher o lixo e acaba recebendo elogios de vários moradores, que se inspiram em sua atitude."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Enquanto João recolhe o lixo, ele encontra seu amigo Pedro, que pergunta por que ele está fazendo isso.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Estou cansado de ver nossa cidade suja. Quero fazer a diferença.",
+                afirmacao: "Pedro se junta a João, e juntos recolhem ainda mais lixo, atraindo a atenção de outros moradores."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Não sei, só estou passando o tempo.",
+                afirmacao: "Pedro acha a atitude de João estranha e vai embora, deixando João continuar sozinho."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ao continuar sua jornada, João encontra um grupo de crianças brincando em um parque cheio de lixo.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Pedir ajuda às crianças para recolher o lixo.",
+                afirmacao: "As crianças aceitam ajudar e, ao final, aprendem sobre a importância de manter a cidade limpa."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Recolher o lixo sozinho para não atrapalhar a brincadeira.",
+                afirmacao: "João recolhe o lixo sozinho, mas as crianças continuam a sujar o parque, pois não entendem a importância de mantê-lo limpo."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Depois de um dia exaustivo recolhendo lixo, João decide visitar o prefeito para discutir o problema.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Implementar mais lixeiras pela cidade.",
+                afirmacao: "O prefeito concorda e, após instalar mais lixeiras, a quantidade de lixo nas ruas diminui consideravelmente."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Realizar campanhas educativas sobre a importância de não jogar lixo no chão."
+                afirmacao: " As campanhas educativas são bem-sucedidas e a conscientização dos moradores aumenta, resultando em menos lixo nas ruas."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Com as ações de João, a cidade começa a mudar. Agora, ele precisa decidir como continuar ajudando a manter Verdelândia limpa.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Organizar mutirões mensais de limpeza.",
+                afirmacao: " Os mutirões mensais se tornam um evento popular e divertido, envolvendo toda a comunidade na limpeza da cidade."
+                "Independente das escolhas, João mostrou que pequenas ações podem ter grandes impactos. Verdelândia aprendeu com seu exemplo e tornou-se uma cidade modelo em termos de limpeza e consciência ambiental. E você, qual seria sua escolha?"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Fundar uma ONG focada na preservação do meio ambiente.",
+                afirmacao: "A ONG de João cresce rapidamente, promovendo várias ações ambientais e projetos educativos, inspirando outras cidades a seguirem o exemplo."
+                "Independente das escolhas, João mostrou que pequenas ações podem ter grandes impactos. Verdelândia aprendeu com seu exemplo e tornou-se uma cidade modelo em termos de limpeza e consciência ambiental. E você, qual seria sua escolha?"
             }
         ]
     },
