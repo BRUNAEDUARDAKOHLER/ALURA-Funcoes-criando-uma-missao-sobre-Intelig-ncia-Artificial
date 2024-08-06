@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chilanka&family=Dancing+Script:wght@400..700&family=Kranky&family=Pangolin&display=swap');
 
 :root {
     --Verde: #C0D494;
@@ -23,8 +24,56 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border: 2px;
+    border-color: var(--Verde-2);
+    border-radius: 15px;
 }
 
 h1 {
     color: var(--Branco);
+    font-family: "Kranky", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    background-color: var(--Verde-2);
+    color: var(--Preto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--Branco);
+}
+
+.caixa-perguntas {
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Preto);
+}
+
+.caixa-alternativas {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Preto);
+}
+
+.caixa-resultado {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Preto);
+}
+
+.texto-resultado {
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Preto);
 }
